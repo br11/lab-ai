@@ -15,19 +15,10 @@
     }
   },
   "mcp": {
-    "intellij-ide": { 
-      "type": "remote", 
-      "url": "http://localhost:64342/sse", 
-      "headers": { 
-          "IJ_MCP_SERVER_PROJECT_PATH": "." 
-      } 
-    },
     "crm-mcp-server": {
       "type": "remote",
-      "url": "http://localhost:8080/sse",
-      "headers": {
-        "IJ_MCP_SERVER_PROJECT_PATH": "."
-      }
+      "url": "http://localhost:8080/mcp",
+      "enabled": true
     }
   }
 }
